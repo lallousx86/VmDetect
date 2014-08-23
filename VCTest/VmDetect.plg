@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VmDetect - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ELIASB~1.IFG\LOCALS~1\Temp\RSP2F9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/VmDetect.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Y:\Sources\Experiments\vmdetect\VmDetect_VC\Source\VCTest\VmDetect.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ELIASB~1.IFG\LOCALS~1\Temp\RSP2F9.tmp" 
+Creating temporary file "C:\DOCUME~1\ELIASB~1.IFG\LOCALS~1\Temp\RSP2FA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"Y:\Sources\Experiments\vmdetect\VmDetect_VC\Source\Common\DetectVM.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ELIASB~1.IFG\LOCALS~1\Temp\RSP2FA.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/VmDetect.pdb" /machine:I386 /out:"Release/VmDetect.exe"  .\Release\StdAfx.obj .\Release\VmDetect.obj .\Release\VmDetectDlg.obj .\Release\VmDetect.res .\Release\DetectVM.obj "
+<h3>Output Window</h3>
+Compiling...
+VmDetect.cpp
+Compiling...
+DetectVM.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+VmDetect.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
